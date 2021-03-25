@@ -7,12 +7,12 @@ let sender;
 if (url.searchParams.get('by') != null) {
   sender = url.searchParams.get('by');
 } else {
-  sender = "Adam";
+  sender = "Dito";
 }
 
 let footer = document.getElementById("credit");
 footer.innerHTML = sender;
-footer.href = "https://www.instagram.com/adamukti/";
+footer.href = "https://www.instagram.com/alifditoo/";
 
 document.querySelector(".tombol").addEventListener('click', function () {
   Swal.fire("Hallo Sayangku", "Aku ada pertanyaan nih buat kamu?", "question").then(function () {
